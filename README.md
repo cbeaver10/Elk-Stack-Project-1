@@ -64,7 +64,6 @@ A summary of the access policies in place can be found in the table below.
 
 |       Name   | Port   | Source        | Protocol  | Destination | Security Group |
 |--------------|--------|---------------|-----------|-------------|---------------|
-| -------------| ------ | ------------- | --------- | ----------- | -------------- |
 | ssh          | 22     | Home-IP    | TCP       | 10.0.0.4     | Red-Team       |
 | RedTeamNet  | 80     | Home-IP    | TCP       | VNET        | Red-Team       |
 | ssh-from-jumpbox | 22 | 10.0.0.4   | TCP       | VNET        | Red-Team       |
